@@ -1,0 +1,164 @@
+@media (min-width:100px) {
+  .fo{
+    width: 100%;
+    height: auto;
+    background-color:cornsilk;
+    display: grid;
+    margin-top: 10%;
+    grid-template-columns:repeat(1, 1fr);
+    
+}
+.foo{
+    /* padding: 15%; */
+    text-align: right;
+    position: sticky;
+    margin: auto;
+    font-size: larger;
+}
+.foo:hover{
+  color: black;
+  cursor: pointer;
+}
+.icon{
+   /* padding: 15%; */
+   width: 100%;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+}
+.icons{
+    width: 30px;
+   
+}
+.icon>h1:hover{
+  color:black;
+}
+.email{
+  width: 100%;
+  margin:auto;
+}
+input[type=emails]{
+    width: 60%;
+    padding:1%;
+    margin-bottom: 2%;
+    box-sizing: border-box;
+    background-color: white;
+    border-color: rgb(4, 10, 15);
+    color: black;
+    font-size: larger;
+  }
+input[type=text] {
+    width: 80%;
+    padding: 4%;
+    height: 30%; 
+    margin-bottom: 3%; 
+    box-sizing: border-box;
+    border-color: rgb(4, 10, 15);
+    color:black;
+    font-size: larger;
+  }
+  .btn{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    margin: auto;
+    
+   
+    
+  }
+  .btn1{
+    margin: 2%;
+    border-radius: 50px;
+    /* transition-property: width, height; */
+    width: auto;
+    background-color: cornsilk;
+    font-size: larger;
+
+  }
+  .btn1:hover{
+    cursor:pointer ;
+    background-color: black;
+    color:white;
+  }
+
+}
+
+@media (min-width: 800px) {
+
+.fo{
+    width: 100%;
+    height: auto;
+    background-color:cornsilk;
+    display: grid;
+    margin-top: 10%;
+    grid-template-columns:repeat(3, 1fr);
+    
+}
+.foo{
+    padding: 15%;
+    text-align: right;
+    position: sticky;
+    margin: auto;
+    font-size: larger;
+}
+.foo:hover{
+  color: black;
+  cursor: pointer;
+}
+.icon{
+   padding: 15%;
+   width: 100%;
+   display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.icon>h1:hover{
+  cursor: pointer;
+  color:black;
+}
+.email{
+  width: 100%;
+  margin:auto;
+}
+input[type=emails]{
+    width: 60%;
+    padding:1%;
+    margin-bottom: 2%;
+    box-sizing: border-box;
+    background-color: white;
+    border-color: rgb(4, 10, 15);
+    color: black;
+    font-size: larger;
+  }
+input[type=text] {
+    width: 80%;
+    padding: 4%;
+    height: 30%; 
+    margin-bottom: 3%; 
+    box-sizing: border-box;
+    border-color: rgb(4, 10, 15);
+    color:black;
+    font-size: larger;
+  }
+  .btn{
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .btn1{
+
+    border-radius: 50px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    border: 2px solid black;
+    background-color: cornsilk;
+    font-size: larger;
+    margin: auto;
+    
+  
+  }
+  .btn1:hover{
+
+    cursor:pointer ;
+    background-color: black;
+    color:white;
+  }
+}

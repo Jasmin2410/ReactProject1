@@ -1,0 +1,75 @@
+@media (min-width:100px) {
+    .signup_container {
+    border:1px solid cornsilk;
+    width: 90%;
+    margin: auto;
+    }
+    input[type=email]{
+        padding: 2%;
+        margin: 5%;
+        color: black;
+        font-size: larger;
+        background-color: cornsilk;
+        
+        }
+        input[type=password]{
+            padding: 2%;
+            margin:2%;
+            color: black;
+            font-size: larger;
+            background-color: cornsilk;
+        
+        }
+
+}
+
+@media (min-width: 5500px) {
+.signup_container {
+    border:1px solid cornsilk;
+    width: 60%;
+    margin: auto;
+    margin-top:20%;
+    
+   
+  }
+   input[type=email]{
+padding: 2%;
+margin: 5%;
+color: black;
+font-size: larger;
+background-color: cornsilk;
+
+}
+input[type=password]{
+    padding: 2%;
+    margin: 5%;
+    color: black;
+    font-size: larger;
+    background-color: cornsilk;
+
+} 
+}
+
+
+form{
+    margin: auto;
+    height: auto;
+    width: 90%;
+    color: black;
+    margin-top: 10%;
+    background-color: cornsilk;
+    
+}
+
+.btn2{
+    width: auto;
+    font-size: larger;
+    margin: 10%;  
+    background-color: cornsilk;
+ 
+}
+.btn2:hover{
+    cursor:pointer ;
+    background-color: black;
+    color:white;
+  }
